@@ -57,7 +57,7 @@ body{
     margin: 20px 20px 50px 20px;
 }
 
-.right_present_professional,
+.right_present_l,
 .right_present_research,
 .right_present_inschool,
 .right_present_kaggle {
@@ -73,7 +73,7 @@ body{
     overflow-y: auto; 
 }
 
-.right_present_professional.active,
+.right_present_l.active,
 .right_present_research.active,
 .right_present_inschool.active,
 .right_present_kaggle.active {

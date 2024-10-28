@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-body{
+body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -14,11 +14,11 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     /* flex-direction: column; */
-  }
+}
 
-  .left_container {
+.left_container {
     width: 200px;
-    height: 250px;
+    height: 300px;
     background-color: rgba(51, 51, 51, 0.8); /* Background color with 80% opacity */
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@ body{
     justify-content: center;
     border-radius: 10px; /* Adding border-radius for rounded corners */
     /* margin-left: 20px; */
-    margin-right:50px;
+    margin-right: 50px;
     margin-left: 20px;
 }
 
@@ -39,12 +39,12 @@ body{
     transition: background-color 0.3s ease; /* Adding a smooth transition effect on hover */
 }
 
-/* Hover effect on buttons */
-.btn:hover {
-    background-color: #555; /* Change the background color on hover */
-}
+    /* Hover effect on buttons */
+    .btn:hover {
+        background-color: #555; /* Change the background color on hover */
+    }
 
-.right_container{
+.right_container {
     position: relative;
     width: 70%;
     height: 750px;
@@ -57,9 +57,10 @@ body{
     margin: 20px 20px 50px 20px;
 }
 
-.right_present_professional,
-.right_present_research,
-.right_present_inschool {
+.right_present_Education,
+.right_present_Experience,
+.right_present_Project,
+.right_present_ECCV {
     position: absolute;
     top: 30px;
     left: 50px;
@@ -69,36 +70,37 @@ body{
     display: none;
     box-sizing: border-box; /* Include padding in the total width */
     max-height: 800px;
-    overflow-y: auto; 
+    overflow-y: auto;
 }
 
-.right_present_professional.active,
-.right_present_research.active,
-.right_present_inschool.active {
-    display: block;
-}
+    .right_present_Education.active,
+    .right_present_Experience.active,
+    .right_present_Project.active,
+    .right_present_ECCV.active {
+        display: block;
+    }
 
 .card {
     color: #fff;
 }
 
-.card h1{
-    font-size: 32px;
-    font-weight: 400;
-    margin-top: 10px;
-}
+    .card h1 {
+        font-size: 32px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
 
-.card h2{
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 20px;
-}
+    .card h2 {
+        font-size: 20px;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
 
-.card p{
-    font-size: 18px;
-    font-weight: 200;
-    margin-bottom: 25px;
-}
+    .card p {
+        font-size: 18px;
+        font-weight: 200;
+        margin-bottom: 25px;
+    }
 
 .return {
     position: relative;
@@ -110,11 +112,11 @@ a:link {
     color: #fff;
 }
 
-a:visited{
+a:visited {
     color: #fff;
 }
 
-.mall_video{
+.mall_video {
     position: relative;
     margin-left: 200px;
     margin-right: 200px;
